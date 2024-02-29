@@ -6,4 +6,5 @@ print("i+j=",k)
 import cmath
 c=complex(i,j)
 print(c.real)
-print(c.imag)
+print("the imaginary part of c = ",c.imag)
+
