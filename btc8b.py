@@ -1,6 +1,6 @@
 #learning python
 import cmath
-import numpy
+import numpy as np
 
 i =1
 j =3
