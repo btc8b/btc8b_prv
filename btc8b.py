@@ -33,3 +33,8 @@ for x in arr:
 arr = np.array([1, 2, 3, 4, 5, 4, 4])
 x = np.where(arr == 4)
 print(x)
+
+#Generate a random normal distribution of size 2x3:
+from numpy import random
+x = random.normal(size=(2, 3))
+print(x)
