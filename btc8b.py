@@ -1,6 +1,9 @@
 #learning python
 import cmath
 import numpy as np
+import matplotlib.pyplot as plt
+from numpy import random
+
 
 i =1
 j =3
@@ -35,7 +38,6 @@ x = np.where(arr == 4)
 print(x)
 
 #Generate a random normal distribution of size 2x3:
-from numpy import random
 x = random.normal(size=(2, 3))
 print(x)
 
@@ -43,7 +45,6 @@ print(x)
 x = random.chisquare(df=2, size=(2, 3))
 print(x)
 
-import matplotlib.pyplot as plt
 import seaborn as sns
 
 sns.distplot(random.chisquare(df=1, size=1000), hist=False)
