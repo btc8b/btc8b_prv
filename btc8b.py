@@ -48,6 +48,9 @@ print(x)
 import seaborn as sns
 
 sns.distplot(random.chisquare(df=1, size=1000), hist=False)
+plt.show()
 
+#normal distribution
+sns.distplot(random.normal(size=1000), hist=False)
 plt.show()
 
