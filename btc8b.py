@@ -37,6 +37,9 @@ arr = np.array([1, 2, 3, 4, 5, 4, 4])
 x = np.where(arr == 4)
 print(x)
 
+#sorting arrays
+print(np.sort(arr))
+
 #Generate a random normal distribution of size 2x3:
 x = random.normal(size=(2, 3))
 print(x)
@@ -50,7 +53,8 @@ import seaborn as sns
 sns.distplot(random.chisquare(df=1, size=1000), hist=False)
 plt.show()
 
-#normal distribution
+#normal (Gaussian) distribution
 sns.distplot(random.normal(size=1000), hist=False)
 plt.show()
+
 
