@@ -37,6 +37,9 @@ arr = np.array([1, 2, 3, 4, 5, 4, 4])
 x = np.where(arr == 4)
 print(x)
 
+#log at base 10
+print(np.log10(arr))
+
 #sorting arrays
 print(np.sort(arr))
 
@@ -56,5 +59,4 @@ plt.show()
 #normal (Gaussian) distribution
 sns.distplot(random.normal(size=1000), hist=False)
 plt.show()
-
 
