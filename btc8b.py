@@ -40,6 +40,9 @@ print(x)
 #log at base 10
 print(np.log10(arr))
 
+#Natural Log
+print(np.log(arr))
+
 #sorting arrays
 print(np.sort(arr))
 
