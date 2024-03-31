@@ -47,6 +47,8 @@ print(np.log(arr))
 print(np.sort(arr))
 
 #Add the values in arr1 to the values in arr2:
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([1, 2, 3])
 
 #Generate a random normal distribution of size 2x3:
 x = random.normal(size=(2, 3))
