@@ -37,6 +37,11 @@ arr = np.array([1, 2, 3, 4, 5, 4, 4])
 x = np.where(arr == 4)
 print(x)
 
+#Sum the values in arr1 and the values in arr2:
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([1, 2, 3])
+
+
 #log at base 10
 print(np.log10(arr))
 
