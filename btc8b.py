@@ -71,3 +71,6 @@ plt.show()
 sns.distplot(random.normal(size=1000), hist=False)
 plt.show()
 
+sns.distplot(random.poisson(lam=2, size=1000), kde=False)
+plt.show()
+
