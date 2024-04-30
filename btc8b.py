@@ -1,6 +1,6 @@
 #learning python
 import cmath
-import numpy as np
+import numpy
 import matplotlib.pyplot as plt
 from numpy import random
 
@@ -26,18 +26,19 @@ print(arr[-3:-1])
 for x in arr:
   print(x)
 
-arr = np.array([[1, 2, 3], [4, 5, 6]])
+arr = numpy.array([[1, 2, 3], [4, 5, 6]])
 
 for x in arr:
   for y in x:
     print(y)
 
+import numpy as np
+
+
 #Find the indexes where the value is 4:
 arr = np.array([1, 2, 3, 4, 5, 4, 4])
 x = np.where(arr == 4)
 print(x)
-
-
 
 #log at base 10
 print(np.log10(arr))
@@ -61,6 +62,9 @@ print(x)
 #Draw out a sample for chi squared distribution with degree of freedom 2 with size 2x3:
 x = random.chisquare(df=2, size=(2, 3))
 print(x)
+
+
+#pip install seaborn
 
 import seaborn as sns
 
